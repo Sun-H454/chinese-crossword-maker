@@ -1,7 +1,7 @@
 ## README(en)
-This program is used to create Chinese crossword puzzles. Unlike other online crossword puzzle generators, this program can automatically use the previous sentence as a clue, greatly improving production efficiency. Therefore, this is more suitable for generating crossword puzzles composed of poetry.
+This program is used to create Chinese crossword puzzles, especially those containing Chinese Poetry or articles. Unlike other online crossword puzzle generators, this program can automatically use the previous sentence as a clue, greatly improving production efficiency. Additionally, you can write down more sentences and corresponding clues in the file to individualize your puzzles.
 #### Input
-Put all the text you want to generate into the data.txt file, ensuring that it is in the same directory as the program. The title of each poem should start with the "%" symbol and do not retain additional information such as author, dynasty, etc. There should be no extra symbols (such as pinyin, comments, etc.) or spaces in the file.
+Put all the text you want to generate into the data.txt file, ensuring that it is in the same directory as the program. You can read the provided data.txt file for reference. The title of each poem should start with the "%" symbol and do not retain additional information such as author, dynasty, etc. There should be no extra symbols (such as pinyin, comments, etc.) or spaces in the file.
 The init.ini file is used to configure initialization information. The first line is a number(unsigned int in C/C++) used as seeds for generating random numbers. The second line is the initial sentence, which serves as the starting point for program generation.
 #### Output
 The program will generate three files in the current directory, named random number seeds with suffixes of "maps. csv", "clue. txt", and "ans. txt". Among them, "maps. csv" is used to create a printed version of the puzzle. 'clue. txt' is the clue for the puzzle, 'ans.txt' is the answer.
@@ -13,11 +13,11 @@ I'm just a Oier in junior high school.
 visit my homepage on Bilibili: [SunH454](https://space.bilibili.com/3546613729462883)
 
 ## README(zh-cn)
-此程序用于制作中文纵横填字游戏。不同于其他网上已有的填字游戏生成器，此程序可以自动以其上一句作为线索，较大程度上提升了制作效率。因此，这更适合于生成诗词（文）组成的填字游戏。
+此程序用于制作中文诗词纵横填字游戏。不同于其他网上已有的填字游戏生成器，此程序可以自动以其上一句作为线索，较大程度上提升了制作效率。另外，你可以在文件中写下更多用于生成的句子和线索，以个性化使用需求。
 
 #### 输入
 
-把所有想要生成的文本放入data.txt文件中，确保其与程序在同一目录下。每一首诗的标题以"%"符号开头，不要保留作者、朝代等附加信息。文件中不要有多余的符号（如拼音、注释等）或空格。
+把所有想要生成的文本放入data.txt文件中，确保其与程序在同一目录下。文本的格式可参考已经给出的data.txt文件。每一首诗的标题以"%"符号开头，不要保留作者、朝代等附加信息。文件中不要有多余的符号（如拼音、注释等）或空格。
 
 init.ini用来配置初始化信息。第一行是一个正整数（unsigned int）范围，用来作为生成随机数的种子。第二行是初始的句子，作为程序生成的起点。
 
