@@ -9,7 +9,7 @@ The program will generate three files in the current directory, named random num
 Open maps.csv using Microsoft Excel, press the hotkey Ctrl-G, select location conditions - constants - OK, and draw all the box lines. After adjusting the row width, column width, and font to the appropriate size, it can be printed. Enjoy solving the puzzle!
 
 ## About Sun-H454
-I'm just a Oier in junior high school.
+I'm just a student.
 visit my homepage on Bilibili: [SunH454](https://space.bilibili.com/3546613729462883)
 
 ## README(zh-cn)
@@ -28,5 +28,5 @@ init.ini用来配置初始化信息。第一行是一个正整数（unsigned int
 用Excel软件打开maps.csv，按下热键Ctrl-G，选择定位条件-常量-确定，并绘制所有框线。调整行宽、列宽和字体至合适大小后即可打印。Enjoy solving the puzzle!
 
 ## 关于作者
-初中生，Oier(只是个蒟蒻)
+高一学生
 访问我的 Bilibili 主页: [SunH454](https://space.bilibili.com/3546613729462883)
